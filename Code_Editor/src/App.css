@@ -1,0 +1,157 @@
+.homePagewrapper{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color:black;
+  height: 100vh;
+  width: 100%;
+  background:black;
+}
+img{
+  max-height: 48px;
+
+}
+.formWrapper{
+  background:#fff;
+  padding: 20px;
+  border-radius: 10px;
+  max-width: 500px;
+  width: 450px;
+  height: 370px;
+  z-index: 9;
+}
+
+.inputGroup{
+  display: flex;
+  flex-direction: column;
+}
+.mainLabel{
+  font-weight: bold;
+  font-size: large;
+  margin: 10px;
+}
+.mainLabel1{
+  font-weight: bold;
+  font-size:large;
+  margin: 10px;
+}
+input{
+  display: flex;
+  padding: 15px;
+  border-radius: 5px;
+  border: none;
+  background-color: #fef2ee;
+  box-shadow: 2px 1px 2px rgba(94,28,68,0.15);
+  margin-bottom: 15px;
+  max-width: 500px;
+}
+.btn1{
+    display: inline-block;
+    background: #ea5a29;
+    border-radius: 6px;
+    padding: 10px 20px;
+    box-sizing: border-box;
+    text-decoration: none;
+    color: azure;
+    border: none;
+    box-shadow: 3px 8px 22px rgba(94,28,68,0.15);
+    cursor: pointer;
+    width: 200px;
+    margin-bottom: 10px;
+}
+.btn1:hover{
+  background-color: #fff;
+  color:#ea5a29;
+  width: 200px;
+}
+.boxcontainer{
+  position: absolute;
+  top: 35%;
+  display: flex;
+  left: 0;
+  width: 30rem;
+  height: 10rem;
+}
+.box1{
+  width: 250px;
+  height: 250px;
+  background-color: #ffbfbf;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  opacity: 50%;
+}
+.createInfo{
+  margin: auto;
+  margin-top: 20px;
+}
+
+.createnew{
+  color:#ffa283;
+  text-decoration: none;
+  border-bottom: 1px solid #ffb298 ;
+  transition: all 0.3s ease-in-out;
+}
+.createnew:hover{
+  color: rgb(39, 12, 248);
+  border-color: rgb(3, 11, 250);
+}
+
+.mainwrap{
+  display: grid;
+  grid-template-columns: 250px 1fr;
+  height: 100vh;
+}
+
+.sidebar{
+  background-color: #262626;
+  display: flex;
+  flex-direction: column;
+  padding-left: 10px;
+  padding-top: 5px;
+  color: #fef2ee;
+}
+
+.asideinner{
+  flex:1; 
+}
+.logoimg{
+  max-height:40px;
+  margin-top: 10PX;
+}
+.line{
+  height: 1px;
+  width: 220px;
+  background-color: #ea5a29;
+  margin-top: 15px;
+  display: flex;
+  margin-left: 5PX;
+}
+.clientList{
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+.client{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  font-weight: bold;
+}
+h3{
+  font-size: 2rem;
+
+}
+.copybtn{
+  max-width: 300px;
+  width: 200px;
+}
+.leavebtn{
+  max-width: 300px;
+  width: 200px;
+}
+.userName{
+  margin-top: 10px;
+}
